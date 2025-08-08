@@ -1,3 +1,4 @@
+# 현 320 이슈 사항
 # (초장문 — 시간 되시는 분만 읽어주세요)
 
 ## 전후 상황
@@ -48,7 +49,6 @@
 - 320과 Soul의 문제 해결은 제가 깨끗하게 처리하겠습니다.
 
 감사합니다.
-
 ---
 
 ## 사건 타임라인
@@ -73,36 +73,3 @@
 | ⑯ | 사건 해결은 작성자가 직접 하겠다고 선언 |
 
 ---
-
-## 사건 흐름도 (Mermaid 시퀀스 다이어그램)
-
-```mermaid
-sequenceDiagram
-    participant Kat
-    participant Soul
-    participant KOR
-    participant NAP
-    participant Server463
-
-    Kat->>MenInOtherAlliances: 접근 및 친밀 관계 형성
-    Kat->>MenInOtherAlliances: 얼굴 사진 수집
-    Kat->>320: Soul 얼굴 사진 공개 + "먼저 보냈다" 거짓 선동
-    Kat->>NAP: Soul 얼굴 사진 + 조롱글 공유
-    Kat->>Server463: 같은 내용 공유
-
-    Note over Kat: Soul이 과거 BRO 리더임 모름
-
-    Soul->>320: 해명 시도 (무시됨)
-    320->>Soul: 조롱 심화
-    Soul->>KOR: 디스코드 대화 스크린샷 증거 제출
-
-    Kat->>320: 일부 대화 삭제 후 스크롤 영상 제작
-    320->>NAP: "스크린샷 조작 가능" 주장
-    NAP->>KOR: 하루 9회 관련 메시지 전파
-
-    320->>KOR: Soul 추방 요구 또는 KOR 개입 금지 요구
-    KOR->>KOR: Soul 과거 협력 사례 공유
-    KOR->>KOR: Kat 증거 영상의 문제 지적
-    KOR->>KOR: 대화·반응·욕설 금지 요청, 캡처 권유
-
-    KOR->>All: "사건 해결은 직접 하겠다" 선언
